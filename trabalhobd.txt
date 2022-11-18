@@ -1,0 +1,9 @@
+select * from products;
+
+create table products(
+id int primary key auto_increment,
+name varchar(10) not null,
+price decimal(5,3) not null,
+created date default now(13),
+updated date 
+);
